@@ -44,6 +44,7 @@ Update `picks/2026/tracking.md` after the result is final.
 | NHL   | Playoffs — Round 1 | *(coming soon)* |
 | NFL   | Off-season / Draft | `sports/nfl/overview.md` |
 | Soccer| EPL / La Liga / UCL | `sports/soccer/overview.md` |
+| Tennis| Clay swing — Monte Carlo / Barcelona | `sports/tennis/overview.md` |
 
 ## Current Bankroll Status
 
