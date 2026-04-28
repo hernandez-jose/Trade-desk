@@ -102,17 +102,59 @@ Petco Park is consistently one of the most pitcher-friendly venues in MLB. Under
 - [ ] Check Kalshi line vs. other books (line shop for best price)
 - [ ] Convert Kalshi moneyline to implied probability and compare to your edge estimate
 
-### Structural Edge Analysis
+### Full Research Findings — April 27, 2026
 
-| Factor                     | Favors          | Notes                                      |
-|---------------------------|----------------|--------------------------------------------|
-| Park factor               | Padres / Under | Petco suppresses runs by 1–1.5             |
-| Travel fatigue            | Padres         | Cubs traveling west, late start (21:40)    |
-| Home field                | Padres         | Crowd, familiarity, routine                |
-| April weather             | Neutral        | San Diego mild; no weather edge            |
-| Starting pitching         | TBD            | Confirm both arms before betting           |
+#### Randy Vásquez — Starting Pitcher Analysis
 
-**Preliminary lean**: Padres ML + Under at Petco. Validate with confirmed starters.
+| Stat  | Value | Interpretation |
+|-------|-------|----------------|
+| ERA   | 1.88  | Getting lucky — regression incoming |
+| xERA  | 4.33  | 2+ runs of regression risk |
+| Fastball xwOBA | .202 | Real improvement from .297 in 2025 |
+| Changeup xwOBA | .181 | Real improvement from .323 in 2025 |
+| Team record in starts | 5-0 | Padres dominant when he pitches |
+
+**Key nuance**: Vásquez has made real pitch-mix improvements — his ERA is lucky, but some of that ERA improvement is legitimate skill gains. He is NOT a pure regression candidate; he's an improved pitcher who is also getting lucky. Expect a middle-ground start (~3 ER) rather than a blowup.
+
+#### Padres Bullpen — Best Weapon in This Game
+
+| Metric       | Value        | Rank    |
+|-------------|--------------|---------|
+| Bullpen ERA  | 2.91         | #2 MLB  |
+| Power ranking| Top 2 in MLB | Elite   |
+
+This bullpen is the strongest factor in this game. Even if Vásquez gives up 2-3 runs through 5 innings, the Padres relief corps will clamp down. The Cubs' offense has no margin for error once Vásquez exits.
+
+#### Padres Injuries (Pitching IL)
+- Griffin Canning — 15-day IL (left Achilles)
+- Joe Musgrove — 15-day IL (right elbow)
+- Yuki Matsui — 15-day IL (left groin)
+- Bryan Hoeing — 60-day IL (right elbow)
+- Nick Pivetta — 15-day IL (right flexor)
+- Jhony Brito — 60-day IL (right elbow)
+
+**Impact**: Rotation depth is hurt, but the back-end bullpen arms are healthy. The injuries affect roster flexibility, not this specific game.
+
+#### Padres 2026 Record: 18-9
+
+One of the best records in the NL. This team is for real.
+
+### Structural Edge Analysis — Final
+
+| Factor                     | Favors          | Strength   | Notes                                           |
+|---------------------------|----------------|------------|------------------------------------------------|
+| Park factor               | Padres / Under | Strong     | Petco: −1.0 to −1.5 runs                       |
+| Padres bullpen            | Padres / Under | Very Strong| #2 MLB, 2.91 ERA — shuts door in late innings  |
+| Vásquez vs. Boyd (surface)| Padres         | Weak       | Vásquez 1.88 ERA, but xERA shows regression risk |
+| Boyd xFIP / FIP           | Cubs           | Strong     | FIP 1.56, xFIP 1.86 — elite underlying stuff   |
+| Travel fatigue            | Padres         | Moderate   | Cubs at midnight body-clock, west coast         |
+| Cubs bullpen depth        | Padres / Under | Moderate   | 11 pitchers on Cubs IL                          |
+| April weather             | Neutral        | None       | San Diego: 65-70°F, mild                       |
+| Padres 18-9 record        | Padres         | Moderate   | Strong team, winning consistently               |
+
+**FINAL LEAN**:
+1. **UNDER 8 (-110)** — PRIMARY play, strongest edge in this game
+2. **Padres ML (+100)** — SECONDARY play, even money value on home team with elite bullpen
 
 ---
 

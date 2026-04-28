@@ -85,16 +85,40 @@ Wrigley Field is unique in all of MLB. The wind is the single most important fac
 
 ---
 
-## Cubs vs. Padres — April 27, 2026 Notes
+## Cubs vs. Padres — April 27, 2026 Deep Dive
 
 **Game**: Cubs @ Padres — Petco Park, San Diego  
-**Kalshi Market**: `kxmlbgame-26apr272140chcsd` (21:40 start)
+**Kalshi Market**: `kxmlbgame-26apr272140chcsd` (21:40 ET / 9:40 PM start)
 
-Key factors for this road matchup:
-- Cubs are **traveling west** (Chicago → San Diego) — time zone shift can impact performance
-- Game is at **Petco Park** (pitcher's park) — Cubs' Wrigley wind advantage is removed
-- Petco neutralizes Cubs' power; expect lower-scoring environment
-- **Lean**: Road Cubs in a pitcher's park → under and Padres moneyline
+### Matthew Boyd — The Key Variable
+
+Boyd's 2026 surface stats are ugly (1-1, 5.79 ERA) but his underlying numbers are elite:
+
+| Stat  | Value | What It Means |
+|-------|-------|---------------|
+| ERA   | 5.79  | Bad luck / defense |
+| FIP   | 1.56  | **Elite** — independent of defense |
+| xFIP  | 1.86  | **Elite** — corrects for HR rate |
+| xERA  | 3.71  | True expected ERA |
+| K-BB% | 33.9% | Outstanding command |
+| K's / BB's | 17 K / 3 BB in 2 starts | Dominant stuff |
+
+**Conclusion**: Boyd has been one of the unluckiest pitchers in baseball so far in 2026. His actual pitching has been excellent — the ERA is lying. Expect significant positive regression.
+
+### Cubs 2026 Injury Situation
+- **11 pitchers on the IL** — Porter Hodge (60-day), Shelby Miller (60-day UCL), Cade Horton (60-day forearm), and 8 others
+- Phil Maton expected to be activated during this series
+- If Boyd exits early, bullpen depth is thin — this is the main risk for totals
+
+### Road Context
+- West Coast trip: Chicago to San Diego — 2-hour time zone shift
+- 9:40 PM ET start = midnight on Cubs' body clock
+- Petco Park removes all Wrigley wind advantages — purely a pitcher's environment
+- Cubs' power numbers will drop at Petco's spacious outfield
+
+### Betting Lean for This Game
+- **Primary**: UNDER 8 — Boyd's elite FIP + Petco suppression + Padres elite bullpen = under value
+- **Moneyline**: Padres ML (+100) is the value side; Cubs -115 is not worth the juice when you're the road team at Petco
 
 ---
 
