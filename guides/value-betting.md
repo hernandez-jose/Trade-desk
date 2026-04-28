@@ -27,6 +27,39 @@ Key inputs:
 - Rest/fatigue adjustment
 - Weather adjustment (outdoor sports)
 
+### Building Power Ratings
+
+Power ratings convert team strength into a number (points relative to a league-average team). A spread between any two teams is simply the difference in ratings adjusted for home field.
+
+**NFL Power Rating Formula:**
+```
+Step 1: Start every team at 0.0 (league average) at season start
+Step 2: Each week, add/subtract based on results:
+  Won by more than spread → Rating improves
+  Lost by more than spread → Rating drops
+  General formula: Rating += 0.3 × (Actual Margin − Expected Margin)
+
+Step 3: Weight recent games more heavily:
+  Last 3 games: 2× weight
+  Games 4–8: 1× weight
+  Games 9+: 0.5× weight (early season noise fades)
+
+Step 4: Derive your spread:
+  My Line = (Home Team Rating + HFA) − Away Team Rating
+  NFL HFA = 2.5 (most venues), 3.0–3.5 (elite home environments)
+  NBA HFA = 3.0
+  MLB HFA = 0.3 runs
+```
+
+**Quick BOYL Example:**
+```
+Teams: Eagles (+3.5 rating) at Cowboys (+2.0 rating), Dallas hosting
+My Line = (2.0 + 2.5) − 3.5 = +1.0 (Cowboys favored by 1)
+Klashi posts Cowboys −3 → I have +2 edge on Eagles side → bet Eagles +3
+```
+
+**Calibration check:** If your lines are consistently 2+ points off the market, adjust your HFA or weighting. Sharp books like Pinnacle are the benchmark for accuracy.
+
 ### Step 2: Convert to Implied Odds
 Take your estimated win probability and convert to what line it implies.
 
