@@ -62,6 +62,17 @@ A **steam move** is when multiple books simultaneously move the same line within
 
 **Response:** Jump on the same side before the line moves further. You won't always get the best of it, but you're on the right side.
 
+**Steam timing by market:**
+| Market | Window Before Line Equalizes |
+|--------|------------------------------|
+| NFL main lines (spread/total) | 2–5 minutes |
+| NBA main lines | 2–5 minutes |
+| MLB main lines | 3–8 minutes |
+| Props / alternate lines | 5–20 minutes |
+| Futures / outrights | 30+ minutes |
+
+**Caution:** Never blindly follow steam without understanding the context. If a steam move is on a game you haven't analyzed, keep your size to 0.5 units. Steam following on unfamiliar games is guessing with urgency.
+
 ## Key Timing Windows
 
 | Time | Who's Betting | Quality of Action |
