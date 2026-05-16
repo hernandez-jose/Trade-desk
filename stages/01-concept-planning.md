@@ -135,10 +135,33 @@ Lock this before moving to Stage 2.
 
 ---
 
+## North San Jose Deep Research (Completed)
+
+Full live-research files have been produced for the North San Jose target market. Reference these before completing the concept one-pager:
+
+| File | Contents |
+|---|---|
+| [../research/north-sj-market-analysis.md](../research/north-sj-market-analysis.md) | Demographics, daytime worker population, tech employer map, delivery market data, commercial real estate, cultural context, and the three unserved dayparts |
+| [../research/north-sj-competitor-landscape.md](../research/north-sj-competitor-landscape.md) | 12 specific competitor profiles with addresses, Yelp ratings, menus, pricing, hours, and competitive vulnerabilities |
+| [../research/north-sj-concept-recommendations.md](../research/north-sj-concept-recommendations.md) | 7 scored concept ideas specific to North SJ with a recommended two-phase entry strategy |
+
+**Key findings from the research:**
+- North SJ has median HHI of $151K+, median age 33, and 51.9% Asian population — one of the most valuable restaurant demographics in the US
+- The daytime worker population (Cisco alone: 20,000+ employees) dwarfs the residential count
+- 87.3% of residents are in professional/executive roles; 53% of their companies now cater lunch weekly
+- No health-forward bowl concept exists in the corridor; no quality breakfast; no Persian food; Vietnamese is absent north of Little Saigon
+- Rent in 95134 runs $2.50–$4.33/sqft/mo NNN — 40–60% cheaper than Santana Row
+- Ghost kitchen entry via SalTalk Kitchen (3334 Victor Ct, Santa Clara) is the lowest-risk validation path
+- Highest-scoring concept: Indian Tiffin & Corporate Catering Hub (27/30) due to B2B focus and exceptional unit economics
+- Broadest long-term position: Health-Forward Pan-Asian Bowl (25/30)
+
+---
+
 ## Output of This Stage
-- [ ] Concept one-pager locked
-- [ ] Primary customer persona defined
-- [ ] 3 competitor analyses completed
-- [ ] At least one concept validation event completed
-- [ ] Preliminary neighborhood target identified
+- [ ] Research files reviewed: market analysis, competitor landscape, concept recommendations
+- [ ] Concept one-pager locked (use the template above + findings from research files)
+- [ ] Primary customer persona defined (tech worker lunch, B2B catering, or residential dinner)
+- [ ] 3 in-person competitor visits completed (Curry Up Now, SAJJ, Korean House minimum)
+- [ ] Ghost kitchen vs. brick-and-mortar decision made
+- [ ] Preliminary neighborhood target confirmed (Zanker Rd or North First St)
 - [ ] Go/no-go decision made before Stage 2
