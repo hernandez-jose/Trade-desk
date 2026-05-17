@@ -1,8 +1,9 @@
-# UFC 329 — Main Card Fighter Index
+# Event 329 — Main Card Fighter Index
 
-> **Event:** UFC 329: McGregor vs. Holloway 2
+> **Event:** McGregor vs. Holloway 2 (Event 329)
 > **Date:** July 11, 2026 | **Venue:** T-Mobile Arena, Las Vegas, Nevada
 > **Broadcast:** Paramount+ PPV | **Main Card Start:** 10:00 PM ET
+> **Combat Sport:** Mixed Martial Arts
 > **Last updated:** May 2026
 
 ---
@@ -13,8 +14,8 @@
 
 | | Fighter | Record | Ranking | Profile |
 |---|---------|--------|---------|---------|
-| 🔴 | **Conor McGregor** | 22–6 | Unranked (returning) | [View](../fighters/conor-mcgregor.md) |
-| 🔵 | **Max Holloway** | 27–9 | Former FW Champion | [View](../fighters/max-holloway.md) |
+| 🔴 | **Conor McGregor** | 22–6 | Unranked (returning) | [View](../../ufc/fighters/conor-mcgregor.md) |
+| 🔵 | **Max Holloway** | 27–9 | Former FW Champion | [View](../../ufc/fighters/max-holloway.md) |
 
 **Stakes:** McGregor's first fight since July 2021 (5-year layoff). Holloway moving up from featherweight/lightweight to welterweight.
 
@@ -24,8 +25,8 @@
 
 | | Fighter | Record | Ranking | Profile |
 |---|---------|--------|---------|---------|
-| 🔴 | **Paddy Pimblett** | 23–4 | Top 10 LW | [View](../fighters/paddy-pimblett.md) |
-| 🔵 | **Benoît Saint Denis** | TBD | Top 10 LW | [View](../fighters/benoit-saint-denis.md) |
+| 🔴 | **Paddy Pimblett** | 23–4 | Top 10 LW | [View](../../ufc/fighters/paddy-pimblett.md) |
+| 🔵 | **Benoît Saint Denis** | TBD | Top 10 LW | [View](../../ufc/fighters/benoit-saint-denis.md) |
 
 **Stakes:** High-profile lightweight bout between two fan favorites with finish-or-be-finished styles.
 
@@ -35,10 +36,10 @@
 
 | | Fighter | Record | Ranking | Profile |
 |---|---------|--------|---------|---------|
-| 🔴 | **Cory Sandhagen** | 18–6 | #4 BW | [View](../fighters/cory-sandhagen.md) |
-| 🔵 | **Mario Bautista** | 17–3 | #8 BW | [View](../fighters/mario-bautista.md) |
+| 🔴 | **Cory Sandhagen** | 18–6 | #4 BW | [View](../../ufc/fighters/cory-sandhagen.md) |
+| 🔵 | **Mario Bautista** | 17–3 | #8 BW | [View](../../ufc/fighters/mario-bautista.md) |
 
-**Stakes:** Rematch — Sandhagen submitted Bautista via armbar in their 2019 debut. Title eliminator implications.
+**Stakes:** Rematch — Sandhagen submitted Bautista via armbar in their 2019 meeting. Title eliminator implications.
 
 ---
 
@@ -46,10 +47,10 @@
 
 | | Fighter | Record | Ranking | Profile |
 |---|---------|--------|---------|---------|
-| 🔴 | **Gable Steveson** | UFC Debut | Unranked | [View](../fighters/gable-steveson.md) |
-| 🔵 | **Elisha Ellison** | 5–2 | Unranked | [View](../fighters/elisha-ellison.md) |
+| 🔴 | **Gable Steveson** | Pro Debut | Unranked | [View](../../ufc/fighters/gable-steveson.md) |
+| 🔵 | **Elisha Ellison** | 5–2 | Unranked | [View](../../ufc/fighters/elisha-ellison.md) |
 
-**Stakes:** Steveson's UFC debut — former Olympic gold medalist wrestler vs. explosive finisher Ellison.
+**Stakes:** Steveson's professional MMA debut — former Olympic gold medalist wrestler vs. explosive finisher Ellison.
 
 ---
 
@@ -57,8 +58,8 @@
 
 | | Fighter | Record | Ranking | Profile |
 |---|---------|--------|---------|---------|
-| 🔴 | **Brandon Royval** | Top 5 FLW | Ranked | [View](../fighters/brandon-royval.md) |
-| 🔵 | **Lone'er Kavanaugh** | TBD | Ranked | [View](../fighters/loner-kavanaugh.md) |
+| 🔴 | **Brandon Royval** | Top 5 FLW | Ranked | [View](../../ufc/fighters/brandon-royval.md) |
+| 🔵 | **Lone'er Kavanaugh** | TBD | Ranked | [View](../../ufc/fighters/loner-kavanaugh.md) |
 
 **Stakes:** Flyweight contender bout with title picture implications.
 
@@ -124,9 +125,9 @@
 | Reach | — | 78" |
 | Stance | Orthodox | Orthodox |
 | Background | Olympic gold wrestler (Tokyo 2020) | Army veteran / police officer |
-| MMA Record | UFC Debut | 5–2 (all finishes) |
-| Last Fight | N/A (UFC debut) | Loss — KO R1, 1:55 (UFC Perth, Sep 2025) |
-| Finish Rate | TBD | 100% (both wins and losses go to finish) |
+| Pro Record | MMA Debut | 5–2 (all finishes) |
+| Last Fight | N/A (pro debut) | Loss — KO R1, 1:55 (Sep 2025) |
+| Finish Rate | TBD | 100% (all fights end by finish) |
 
 ---
 
@@ -136,8 +137,8 @@
 |-----------|---------------|-----------------|
 | Nickname | Raw Dawg | — |
 | Division | Flyweight (125 lbs) | Flyweight (125 lbs) |
-| Style | Aggressive finisher | — |
-| Profile | Top-5 UFC flyweight contender | Rising contender |
+| Style | Aggressive finisher | Rising contender |
+| Standing | Top-5 flyweight contender | Ranked contender |
 
 ---
 
@@ -146,11 +147,11 @@
 | Fighter | Flag | Detail |
 |---------|------|--------|
 | Conor McGregor | ⚠️ Long layoff | 5 years since last fight (Jul 2021) |
-| Conor McGregor | ⚠️ USADA suspension | Cleared March 2026 — missed 4+ years of competition |
-| Max Holloway | ⚠️ Weight class jump | Moving from FW/LW to WW (+15–25 lbs up) |
-| Max Holloway | ⚠️ Recent loss | Lost to Oliveira at UFC 326 (Mar 2026) |
-| Paddy Pimblett | ⚠️ Recent loss | Lost to Gaethje UFC 324 (Jan 2026) |
-| Paddy Pimblett | ⚠️ 5-round exposure | Cardio and output dropped in R4–R5 vs. Gaethje |
-| Cory Sandhagen | ⚠️ Recent loss | Demolished by Dvalishvili (20 TDs) at UFC 320 (Oct 2025) |
-| Elisha Ellison | 🚨 Chin concern | KO'd at 1:55 in UFC debut, required oxygen tank |
-| Gable Steveson | ⚠️ UFC debut | Debut fighter trap — variance is high |
+| Conor McGregor | ⚠️ Anti-doping suspension | Cleared March 2026 — missed 4+ years of competition |
+| Max Holloway | ⚠️ Weight class jump | Moving from featherweight/lightweight to welterweight (+15–25 lbs up) |
+| Max Holloway | ⚠️ Recent loss | Lost to Oliveira (Mar 2026) by wide decision |
+| Paddy Pimblett | ⚠️ Recent loss | Lost to Gaethje (Jan 2026) — cardio exposed in 5-round fight |
+| Paddy Pimblett | ⚠️ Weight cut concern | Known to walk around significantly heavier than 155 lbs |
+| Cory Sandhagen | ⚠️ Recent loss | Dominated by Dvalishvili (20 TDs) in Oct 2025 |
+| Elisha Ellison | 🚨 Chin concern | Knocked out at 1:55 in pro debut, required oxygen tank |
+| Gable Steveson | ⚠️ Pro debut | Debut fighter trap — high variance, MMA is not wrestling |
