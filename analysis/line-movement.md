@@ -8,6 +8,27 @@ Lines move for two reasons:
 
 Understanding which type of money is moving a line is the core skill in reading the market.
 
+> **See also**: `analysis/crowd-bias.md` — a deeper breakdown of *why* the public bets the way it does, how personal bias and fighter/team narratives distort lines, and how to systematically exploit it. Includes the Chimaev vs. Strickland (UFC 328) case study.
+
+## Crowd Sentiment and Line Distortion
+
+Public money is not random — it is systematically biased. The crowd reliably overvalues:
+- Hyped, undefeated, or "feared" fighters and teams
+- Recent dominant performances (recency bias)
+- Popular, likable, or exciting fighters over boring grinders
+- Heavy favorites (favorite–longshot bias)
+
+And undervalues:
+- Disliked or controversial fighters — public suppresses bets on them emotionally
+- Decision grinders and defensive specialists
+- Large underdogs regardless of structural matchup quality
+
+When the crowd is strongly biased, the closing line reflects that distortion. The popular side is **overpriced** and the unpopular side is **underpriced** — often by 10–30 percentage points in extreme cases.
+
+**Identification signal**: If the line moved further *toward* the already-popular side after opening, the crowd pushed it. The other side is now more +EV than it was at open.
+
+**UFC 328 example**: Chimaev opened −400, got bet up to −513 by crowd action. Strickland moved from +300 to +390. The crowd's bias inflated a near-coinflip matchup (per the model: 51%/49%) into an 84%/20% implied split. Strickland won.
+
 ## Sharp vs. Square Action
 
 ### Square (Public) Action
