@@ -56,8 +56,21 @@ The general public overvalues:
 - Teams coming off a big win
 - Home favorites on national TV
 - High-scoring offenses (inflates totals)
+- Hyped, undefeated, or "feared" fighters (MMA)
+- KO artists and exciting finishers over methodical grinders (MMA)
+
+And **undervalues**:
+- Disliked or controversial fighters — public emotionally suppresses bets on them, inflating their underdog price beyond true probability
+- Decision grinders and high-cardio fighters in long fights
+- Large underdogs in general (favorite–longshot bias)
 
 Fading the public in these spots provides structural +EV over time.
+
+**Critical rule for MMA**: A fighter's personality, public statements, or "villain" status has zero effect on their true win probability — but it does suppress public betting on them, making their price artificially long. A disliked underdog against a hyped favorite is one of the most reliably mispriced situations in combat sports betting.
+
+When multiple biases stack on the same fight (hype bias + style bias + villain bias all pointing the same direction), the edge on the unpopular side can be 20–30 percentage points above implied probability. This is when the model's output must be followed, even when the narrative says otherwise.
+
+> See `analysis/crowd-bias.md` for the full framework including bias checklist and the Chimaev/Strickland case study.
 
 ### Injury Market Inefficiency
 When a key player is scratched late, lines don't always move enough.  
