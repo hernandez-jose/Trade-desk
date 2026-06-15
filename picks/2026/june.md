@@ -101,8 +101,86 @@ Full-card research: `sports/fights/ufc-freedom-250/`. Methodology: `analysis/mma
 
 ---
 
+## UFC | June 20, 2026 | UFC Fight Night: Kape vs. Horiguchi (UFC Vegas 119, Las Vegas)
+
+Full-card research: `sports/fights/ufc-fight-night-kape-horiguchi/`. Methodology: `analysis/mma-fight-prediction.md`.
+
+**Card read:** mid-tier/prelim-heavy card → softer pricing than a marquee PPV, so 3 moneyline value plays cleared the threshold. 10 live bouts (Diniz vs. José Luiz cancelled — Diniz withdrew). Odds ~5 days out; re-verify and check weigh-ins before placing.
+
+---
+
+### Pick 1 ⭐ | Aswell vs. Bolaños — Gaston Bolaños (ML, value dog)
+
+**Pick**: Gaston Bolaños (Moneyline)
+**Odds**: ~+330
+**Bet Size**: 1.5 units
+**Platform**: Klashi (verify line)
+
+### Analysis
+- Model makes it a near-even striking match (Aswell ~56% / Bolaños ~44%), yet Aswell is priced −400 (~80% implied). Bolaños at +330 (~23% implied) carries ~+21% edge. Fight stays standing (neither wrestles), neutralizing Bolaños's only weakness.
+- ⚠️ Predicted winner is Aswell — this is a "back the value, not the favorite" play. Small UFC samples on both → Standard, not High.
+
+### Confidence: Standard
+
+### Result
+- **Outcome**: PENDING
+- **Notes**: —
+
+---
+
+### Pick 2 | Basharat vs. Ewing — Farid Basharat (ML)
+
+**Pick**: Farid Basharat (Moneyline)
+**Odds**: ~+108
+**Bet Size**: 1.0 unit
+**Platform**: Klashi (verify line)
+
+### Analysis
+- Fade-the-narrative: the unranked story-fighter (Ewing, 2-0 UFC) is favored over the ranked undefeated grappler. Model Basharat ~57% vs. ~48% implied → +8.9% edge. Risk: Ewing's collegiate wrestling base could stuff Basharat's takedown-dependent path.
+
+### Confidence: Standard
+
+### Result
+- **Outcome**: PENDING
+- **Notes**: —
+
+---
+
+### Pick 3 | Rosa vs. Santos — Luana Santos (ML)
+
+**Pick**: Luana Santos (Moneyline)
+**Odds**: ~+115
+**Bet Size**: 1.0 unit
+**Platform**: Klashi (verify line)
+
+### Analysis
+- Near coin-flip; Santos's grappling, takedown defense, and youth edge a fading-volume Rosa coming off a layoff. Model ~52–53% vs. ~46.5% implied → +6% edge. Most likely a decision.
+
+### Confidence: Low
+
+### Result
+- **Outcome**: PENDING
+- **Notes**: —
+
+---
+
+### Passed (no ML value) — UFC Vegas 119
+
+| Bout | Predicted Winner | Model % | Market | Reason to pass |
+|------|------------------|---------|--------|----------------|
+| Kape vs. Horiguchi | Kape | ~58% | −170 | favorite slightly rich (−5%) |
+| Stirling vs. Cutelaba | Stirling | ~71% | −300 | efficient (−4%) |
+| Rodriguez vs. Amil | Rodriguez | ~62% | −150 | fair (+1.5%) |
+| Mesquita vs. Mullins | Mesquita | ~84% | −600 | priced in (−2%) |
+| Lima vs. Borjas | Lima | ~83% | −700 | overpriced (−5%) |
+| Nascimento vs. Raposo | Nascimento | ~64% | −205 | fair (−3%) |
+| Magomedov vs. Baghdasaryan | Magomedov | ~68% | −285 | hype-shaded (−6%) |
+
+---
+
 ## Month Summary
 
+### UFC Freedom 250 (June 14)
 | Bet | Odds | Units | Result |
 |-----|------|-------|--------|
 | Ruffy + Under 1.5 rds (SGP) | ~+103 | 1.0 | PENDING |
@@ -110,5 +188,12 @@ Full-card research: `sports/fights/ufc-freedom-250/`. Methodology: `analysis/mma
 | Gane by Decision | ~+275 | 0.5 | PENDING |
 | Topuria by KO/TKO | ~−210 | 0.5 | PENDING |
 
-**Flagged exposure:** 3.0 units (all props/method — zero moneyline).
-> Update outcomes after the event and reflect any placed wagers in `tracking.md`.
+### UFC Vegas 119 (June 20)
+| Bet | Odds | Units | Result |
+|-----|------|-------|--------|
+| Gaston Bolaños ML | ~+330 | 1.5 | PENDING |
+| Farid Basharat ML | ~+108 | 1.0 | PENDING |
+| Luana Santos ML | ~+115 | 1.0 | PENDING |
+
+**Total flagged exposure (June):** 6.5 units across both cards.
+> Update outcomes after each event and reflect any placed wagers in `tracking.md`.
