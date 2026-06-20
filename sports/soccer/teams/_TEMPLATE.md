@@ -84,7 +84,7 @@
 | Individual Quality / Star Players | {{n}} |
 | Physical / Fitness / Squad Depth | {{n}} |
 
-**Composite Score:** {{calculated in workflow Step 3}}
+**Composite Score (baseline — neutral venue, full squad):** {{n}} / 10 — recalculated per matchup in `match-analysis.md` with contextual weights applied
 
 ---
 
@@ -117,6 +117,8 @@
 - [ ] Historically poor record vs. this opponent
 - [ ] Heavy public favorite (square money — consider fading)
 - [ ] Manager under pressure / reported dressing room issues
+- [ ] Players on yellow card accumulation alert (1 card from suspension)
+- [ ] Dead rubber / mutual advancement scenario (both teams content with a draw)
 
 ---
 

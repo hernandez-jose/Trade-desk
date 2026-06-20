@@ -67,6 +67,23 @@
 
 ---
 
+## Goal Total Assessment
+
+| Factor | {{Team A}} | {{Team B}} | Combined |
+|--------|-----------|-----------|----------|
+| Avg goals scored / game (last 10) | {{n}} | {{n}} | — |
+| Avg goals conceded / game (last 10) | {{n}} | {{n}} | — |
+| xG / game (last 10) | {{n}} | {{n}} | — |
+| xGA / game (last 10) | {{n}} | {{n}} | — |
+
+**Projected total goals:** {{n}} (xG-based) / {{n}} (results-based)  
+**Market total:** {{n}} (Over/Under {{n}} Goals)  
+**Goal total lean:** {{Over / Under / No lean}} — {{1-line reason}}  
+**BTTS lean:** {{Yes / No / No lean}} — {{1-line reason}}  
+**Mutual advancement / dead rubber?** {{Yes → suppress goals / No}}
+
+---
+
 ## Outcome Probability
 
 ### Base (from composite differential)
@@ -102,9 +119,12 @@
 | {{Team A}} ML / 1X2 | {{}} | {{%}} | {{%}} | {{+/−}} | {{Bet / Pass}} |
 | Draw | {{}} | {{%}} | {{%}} | {{+/−}} | {{Bet / Pass}} |
 | {{Team B}} ML / 1X2 | {{}} | {{%}} | {{%}} | {{+/−}} | {{Bet / Pass}} |
+| Draw No Bet — {{Team A}} | {{}} | {{%}} | {{%}} | {{+/−}} | {{Bet / Pass}} |
 | AH {{Team A}} ({{line}}) | {{}} | 50% | {{%}} | {{+/−}} | {{Bet / Pass}} |
 | O/U {{n}} Goals | {{}} | 50% | {{%}} | {{+/−}} | {{Bet / Pass}} |
 | BTTS Yes | {{}} | {{%}} | {{%}} | {{+/−}} | {{Bet / Pass}} |
+| 1H AH {{Team A}} ({{line}}) | {{}} | 50% | {{%}} | {{+/−}} | {{Bet / Pass}} |
+| 1H O/U {{n}} Goals | {{}} | 50% | {{%}} | {{+/−}} | {{Bet / Pass}} |
 
 ---
 

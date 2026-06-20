@@ -43,9 +43,11 @@ For both teams, create or refresh `sports/soccer/teams/<team-slug>.md` from `spo
 For each team, fill `sports/soccer/matches/<match-slug>/research/<team-slug>.md` from `research/_TEAM.md`. Cover: current form, squad availability, tactical setup vs. this specific opponent, key players, set-piece threat, and market positioning.
 
 ## Step 5 — Predict the match
-Run the 5-step soccer prediction model (below) per match: score 6 tactical areas → weight by context (home/neutral, tournament pressure) → composite → base win/draw/loss % → situational modifiers → edge vs. market. Fill each section in `match-analysis.md`, then the **🏆 Outcome Prediction table**.
+Run `analysis/soccer-match-prediction.md` (5-step model) per match: score 6 tactical areas → apply contextual weights → composite differential → base win/draw/loss % → situational modifiers → renormalize → edge vs. market. Fill each section in `match-analysis.md`, then the **🏆 Outcome Prediction table**.
 
-### 5-Step Soccer Prediction Model
+The full model with worked example lives in `analysis/soccer-match-prediction.md`. Summary of the 5 steps:
+
+### 5-Step Soccer Prediction Model (Summary)
 
 **Step 1 — Skill Area Scoring (rate each team 1–10)**
 
@@ -65,27 +67,31 @@ Run the 5-step soccer prediction model (below) per match: score 6 tactical areas
 - Injury to key player: −1 to relevant Skill Area
 
 **Step 3 — Composite Score**
-`Composite = Σ (Rating × Weight)` for each team. Normalize to a 0–100 scale differential.
+`Composite = Σ (Rating × Weight)` for each team. The result is on a **0–10 scale** (each rating is 1–10, weights sum to 100%). Calculate the differential: Team A composite − Team B composite. A positive differential favors Team A. Maximum possible differential is 9.0 (impossible in practice — real matches cluster between 0 and 3.0).
 
 **Step 4 — Base Win/Draw/Loss Probability**
 Convert composite differential to implied probabilities using the table:
 
-| Composite Differential | Strong Team Win % | Draw % | Weak Team Win % |
-|------------------------|-------------------|--------|-----------------|
-| 0–5 (even match) | 35% | 27% | 38% |
-| 6–10 | 42% | 27% | 31% |
-| 11–15 | 50% | 26% | 24% |
-| 16–20 | 58% | 23% | 19% |
-| 21+ | 65%+ | 20% | 15% |
+| Composite Differential (0–10 scale) | Strong Team Win % | Draw % | Weak Team Win % |
+|--------------------------------------|-------------------|--------|-----------------|
+| 0.0–0.5 (even match) | 38% | 28% | 34% |
+| 0.6–1.0 | 42% | 27% | 31% |
+| 1.1–1.5 | 50% | 26% | 24% |
+| 1.6–2.0 | 58% | 23% | 19% |
+| 2.1+ | 65%+ | 20% | 15% |
 
 **Step 5 — Situational Modifiers & Edge**
 Apply to base probabilities:
-- Must-win situation: +5% to attacking team win/draw
+- Must-win situation: +5% to attacking team win probability
 - Coming off a loss (tournament): +3% motivation boost (revenge/elimination fear)
-- Heavy public square side: check if line has moved >1 goal or 0.5 AH — consider fading
-- Referee nationality bias (knockout stages): note if applicable
+- Heavy public square side: check if line has moved >0.5 AH — consider fading
+- Altitude ≥ 1,500m (Denver, Mexico City, Guadalajara, Monterrey): −1 to Physical rating for teams not acclimatized; reduces effective composite by ~0.15
+- **Mutual advancement / dead rubber**: Both teams advance with a draw → −12% to BTTS Yes; apply Under lean; suppress goal-line by 0.3
+- Referee tendency (knockout stages): note home/away card rate if historical data available; generally minor at neutral WC venues
 
-Calculate edge: `Edge = True % − Implied %`. Flag bets with edge ≥ +4%.
+> **Renormalize after all modifiers:** Win % + Draw % + Loss % must equal 100%. After applying modifiers, sum the three raw values and divide each by the total: `True % = raw % ÷ (raw Win + raw Draw + raw Loss)`. Skipping this step will produce incorrect edge calculations.
+
+Calculate edge: `Edge = True % − Implied %`. Flag bets with edge ≥ **+5%** (consistent with `guides/value-betting.md`).
 
 ## Step 6 — Final bets
 Distill `match-analysis.md` into `final-bets.md`: odds snapshot, per-market verdicts, action sheet (sized per `guides/bankroll-management.md`), clean outcome summary, and prediction-market vs. sportsbook divergence. Flag only bets clearing the `guides/value-betting.md` edge threshold.
@@ -116,14 +122,22 @@ For a full matchday or group stage (often 4–8 matches at once), fan research o
 
 | Market | Notes |
 |--------|-------|
-| Asian Handicap | Best juice; eliminates draw variable |
+| Asian Handicap (half-ball: −0.5, +0.5) | Best juice; eliminates draw variable; most common line |
+| Asian Handicap (quarter-ball: −0.25, −0.75, +0.25, +0.75) | Stake splits between two adjacent lines; half-win/half-push possible; use for close matches |
+| Asian Handicap (whole-ball: −1, +1) | Push (refund) if margin equals handicap exactly; use when dominant win expected |
 | Over/Under 2.5 Goals | Most liquid; use 1.5/3.5 when justified |
-| 1X2 (Match Result) | Only when draw has clear value |
-| Both Teams to Score | Good in open knockout games |
-| First Half AH / O-U | Strong coaching-matchup edges |
+| 1X2 (Match Result) | Only when draw has clear value or backing an underdog |
+| Draw No Bet (DNB) | Effectively AH 0; returns stake on draw; often better juice than 1X2 for slight favorites |
+| Both Teams to Score | Good in open knockout games; very sensitive to striker availability |
+| First Half AH / O-U | Strong coaching-matchup edges; less efficient market |
 | Double Chance | Use when backing underdog but draw is possible |
 
-> Avoid: exact score, first scorer, scorecasts — juice is prohibitive.
+> Avoid: exact score, first scorer, scorecasts — juice is prohibitive. **Exception:** 0-0 or 1-0 correct scores may offer value when both teams have incentive to protect a narrow result — check implied % vs. True % from the goal total model.
+
+**Asian Handicap Quick Reference:**
+- Quarter-ball lines (−0.25, +0.25, −0.75, +0.75) are the most common WC lines. Your stake is split 50/50 between the two adjacent lines. A "half-win" returns full stake + half profit. A "half-loss" loses only half the stake.
+- Prefer AH −0.5 over −1 unless the model differential exceeds 1.5 and the weaker team shows clear vulnerability. AH −1.5+ requires high confidence.
+- In mismatched WC group matches, AH is exceptionally sharp due to Asian betting volume — pivot to O/U or Draw if no AH edge exists.
 
 ---
 

@@ -14,10 +14,13 @@
 | Market | {{Team A}} | Draw | {{Team B}} | Best Book |
 |--------|-----------|------|-----------|-----------|
 | 1X2 | {{}} | {{}} | {{}} | {{}} |
-| Asian HCP ({{line}}) | {{}} | — | {{}} | {{}} |
+| Asian HCP half-ball (−0.5 / +0.5) | {{}} | — | {{}} | {{}} |
+| Asian HCP quarter-ball ({{line}}) | {{}} | — | {{}} | {{}} |
+| Draw No Bet (DNB) | {{}} | — | {{}} | {{}} |
 | O/U {{n}} Goals | Over {{}} | — | Under {{}} | {{}} |
+| 1H O/U {{n}} Goals | Over {{}} | — | Under {{}} | {{}} |
 | BTTS | Yes {{}} | — | No {{}} | {{}} |
-| First Half 1X2 | {{}} | {{}} | {{}} | {{}} |
+| First Half AH ({{line}}) | {{}} | — | {{}} | {{}} |
 | Double Chance ({{Team A}}/Draw) | {{}} | — | — | {{}} |
 
 ---

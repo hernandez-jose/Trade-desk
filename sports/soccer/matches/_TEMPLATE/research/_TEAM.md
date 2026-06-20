@@ -34,8 +34,13 @@
 **Suspended:**
 - {{player}} — {{cards / ban reason}}
 
+**On yellow card alert (1 card from suspension):**
+- {{player}} — {{caution-management expected? Y/N}} — {{does manager historically rest them in dead rubbers?}}
+
 **Returning from injury:**
 - {{player}} — {{note on fitness level}}
+
+**Expected XI / Rotation Risk:** {{Low / Medium / High}} — {{note rotation likelihood and who sits}}
 
 **Net impact on team strength:** {{+2 / −1 / no change to Tactical Rating}}
 

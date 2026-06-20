@@ -37,10 +37,10 @@
 
 ## Injury & Suspension Report
 
-| Team | Player | Status | Role Impact |
-|------|--------|--------|-------------|
-| {{Team A}} | {{player}} | {{Doubtful / Out / Suspended}} | {{High / Med / Low}} |
-| {{Team B}} | {{player}} | {{Doubtful / Out / Suspended}} | {{High / Med / Low}} |
+| Team | Player | Status | Role Impact | Rotation Risk |
+|------|--------|--------|-------------|--------------|
+| {{Team A}} | {{player}} | {{Doubtful / Out / Suspended / Yellow Alert}} | {{High / Med / Low}} | {{High / Med / Low / N/A}} |
+| {{Team B}} | {{player}} | {{Doubtful / Out / Suspended / Yellow Alert}} | {{High / Med / Low}} | {{High / Med / Low / N/A}} |
 
 ---
 
