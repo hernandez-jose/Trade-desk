@@ -22,6 +22,17 @@ When asked "should I bet X?", follow this process:
 6. **Apply Kelly Criterion** — size the bet according to `picks/2026/tracking.md`
 7. **Document the pick** using the template in `picks/template.md`
 
+## UFC Fight Research
+
+When asked to **research a fight or card** (e.g. "research UFC 329"), follow the runbook in `sports/ufc/RESEARCH-WORKFLOW.md`. In short:
+
+1. Confirm the card; list every bout (division + round count).
+2. Scaffold the event folder by copying `sports/fights/_TEMPLATE/` to `sports/fights/<event-slug>/`.
+3. Build/refresh each fighter's evergreen profile in `sports/ufc/fighters/` (template: `_TEMPLATE.md`).
+4. Write matchup-specific deep research per fighter in `sports/fights/<event>/research/` (template: `research/_FIGHTER.md`).
+5. Predict each bout with the 5-step model in `analysis/mma-fight-prediction.md`; fill the **🏆 who-wins table** in `fight-analysis.md`.
+6. Distill to `final-bets.md` — flag only +EV bets; log placed bets in `picks/2026/<month>.md`.
+
 ## Break-Even Probability Reference
 
 | Odds (American) | Break-Even % |
@@ -69,15 +80,30 @@ Trade-desk/
 │   ├── mlb/
 │   │   ├── overview.md
 │   │   └── teams.md
-│   └── soccer/
-│       ├── overview.md
-│       └── teams.md
+│   ├── soccer/
+│   │   ├── overview.md
+│   │   └── teams.md
+│   ├── ufc/                          # UFC/MMA hub
+│   │   ├── overview.md               # Bet types, angles, style hierarchies
+│   │   ├── RESEARCH-WORKFLOW.md       # Runbook for "research a fight/card"
+│   │   └── fighters/
+│   │       ├── _TEMPLATE.md           # Evergreen fighter-profile template
+│   │       └── <name>.md             # One persistent profile per fighter
+│   └── fights/                       # Per-event research & predictions
+│       ├── _TEMPLATE/                # Copy to start a new card
+│       │   ├── fight-card.md
+│       │   ├── fight-analysis.md     # Holds the 🏆 who-wins table
+│       │   ├── final-bets.md
+│       │   └── research/_FIGHTER.md  # Deep matchup-research template
+│       └── <event-slug>/             # e.g. ufc-329/
 ├── picks/
 │   ├── template.md                   # Pick documentation template
 │   └── 2026/
 │       ├── april.md                  # April picks log
 │       └── tracking.md              # P&L tracker
 └── analysis/
+    ├── mma-fight-prediction.md       # 5-step MMA win-probability model
+    ├── crowd-bias.md                 # Public-sentiment line distortion
     ├── line-movement.md              # How to read steam and CLV
     └── injuries-weather.md          # Situational impact guide
 ```
